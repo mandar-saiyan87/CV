@@ -1,0 +1,192 @@
+/*body{
+  background-color: blue;
+}*/
+
+/*********************************************************** HTML SECTION *************************************/
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1{
+  color: #66BFBF;
+  margin-top: 60px;
+  margin-block-end: 0;
+  font-size: 4.375rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #11999E;
+}
+
+hr{
+  border-color: #40514E;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 8%;
+  margin: 3% auto 4% auto;
+}
+
+p{
+  line-height: 2;
+}
+
+/*********************************************************** CLASSES SECTION *************************************/
+
+.top-container{
+  background-color: #e4f9f5;
+  padding-top: 83px;
+  position: relative;
+}
+
+.top-container .subtitle{
+  color: #66BFBF;
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-block-start: 0.5em;
+}
+
+.profile {
+  width: 64%;
+  margin: auto;
+}
+
+.middle-container{
+  margin: 75px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-container p{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 5px 0;
+}
+
+.footer-link{
+  color: #1199E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 9px 0;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+
+/*
+.skill-row{
+  margin: 75px auto 75px auto;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+}
+*/
+.skills .skill1{
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  left: 50px;
+  margin-top: 2%;
+}
+
+.skills .skill2{
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  margin-top: 2%;
+}
+
+.skills .skill3{
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  right: 50px;
+  margin-top: 2%;
+}
+
+.contact-me p{
+  width: 60%;
+  margin: 30px auto 40px;
+}
+
+
+/******************************************** IMAGE SECTION ******************************************/
+.top-image{
+  position: absolute;
+  right: 300px;
+  top: 75px;
+}
+
+.bottom-image{
+  position: absolute;
+  left: 300px;
+  bottom: 310px;
+
+}
+
+.middle-container .images{
+  height: 150px;
+  width: 150px;
+}
+
+.ico{
+  width: 25%
+}
+
+/******************************************** BUTTON SECTION ******************************************/
+
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background: #34adc2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+/*
+
+.ico{
+  float: left;
+  margin-right: 15px;
+  width: 25%
+}
+
+.skill-row img{
+  width: 25%;
+}
+*/
